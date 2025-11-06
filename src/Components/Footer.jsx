@@ -4,30 +4,30 @@ function Footer() {
       <footer>
         <div >
           <div>
-            <p>João Silva</p>
-            <p>Desenvolvedor Full Stack</p>
+            <p>Matheus Brasil</p>
+            <p>Desenvolvedor Júnior</p>
           </div>
 
           <div>
             <a
               href="#"
             >
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
             <a
               href="#"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
             <a
               href="#"
             >
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
             </a>
             <a
               href="#"
             >
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </div>
         </div>
