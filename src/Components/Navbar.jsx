@@ -1,22 +1,15 @@
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
       <header>
         <div>
-          <div >
-            <a>
-              Portfólio
-            </a>
+          <div>
+            <a>Portfólio</a>
             <nav>
-              <a>
-                Sobre mim
-              </a>
-              <a>
-                Projetos
-              </a>
-              <a>
-                Contato
-              </a>
+              <Link to="/">Sobre mim</Link>
+              <Link to="/projeto">Projetos</Link>
+              <Link to="/contato">Contato</Link>
             </nav>
           </div>
         </div>

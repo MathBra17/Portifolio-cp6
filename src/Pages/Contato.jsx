@@ -1,7 +1,13 @@
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 function Contato() {
     return (
         <>
-        <h1>Pagina Contato</h1>
+        <Navbar />
+        <div>
+            <h1>Pagina Contato</h1>
+        </div>
+        <Footer />
         </>
     )
 }
