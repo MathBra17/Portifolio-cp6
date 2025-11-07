@@ -29,7 +29,7 @@ function Home() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
                             <div className="flex items-center">
                                 <div className="bg-indigo-100 p-3 rounded-full mr-4">
-                                    <i className="fas fa-graduation-cap text-indigo-600"></i>
+                                    <img src="/public/formacao.png" alt="Ícone Formação" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold">Formação</h3>
@@ -39,7 +39,7 @@ function Home() {
                             
                             <div className="flex items-center">
                                 <div className="bg-indigo-100 p-3 rounded-full mr-4">
-                                    <i className="fas fa-briefcase text-indigo-600"></i>
+                                    <img src="/public/experiencia.png" alt="Ícone Experiência" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold">Experiência</h3>
@@ -49,7 +49,7 @@ function Home() {
                             
                             <div className="flex items-center">
                                 <div className="bg-indigo-100 p-3 rounded-full mr-4">
-                                    <i className="fas fa-map-marker-alt text-indigo-600"></i>
+                                    <img src="/public/localizacao.png" alt="Ícone localização" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold">Localização</h3>
@@ -59,7 +59,7 @@ function Home() {
                             
                             <div className="flex items-center">
                                 <div className="bg-indigo-100 p-3 rounded-full mr-4">
-                                    <i className="fas fa-envelope text-indigo-600"></i>
+                                    <img src="/public/email.png" alt="Ícone E-mail" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold">Email</h3>
