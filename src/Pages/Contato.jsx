@@ -35,7 +35,7 @@ function Contato() {
                                         </div>
                                         <div>
                                             <p className="text-gray-600">Telefone</p>
-                                            <p className="font-medium">(11) 99999-9999</p>
+                                            <p className="font-medium">(11) 94348-6482</p>
                                         </div>
                                     </div>
                                     
@@ -59,6 +59,35 @@ function Contato() {
                                     </a> 
                                 </div>
                             </div>
+
+                            <div>
+                                <form className="space-y-4">
+                                    <div>
+                                        <label for="nome" className="block text-gray-700 mb-2">Nome</label>
+                                        <input type="text" id="nome" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Seu nome"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <label for="email" className="block text-gray-700 mb-2">Email</label>
+                                        <input type="email" id="email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="seu@email.com"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <label for="assunto" className="block text-gray-700 mb-2">Assunto</label>
+                                        <input type="text" id="assunto" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Assunto da mensagem"/>
+                                    </div>
+                                    
+                                    <div>
+                                        <label for="mensagem" className="block text-gray-700 mb-2">Mensagem</label>
+                                        <textarea id="mensagem" rows="4" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Sua mensagem"></textarea>
+                                    </div>
+                                    
+                                    <button type="submit" className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
+                                        Enviar Mensagem
+                                    </button>
+                                </form>
+                            </div>
+
                         </div>
                     </div>
                 </div>
