@@ -2,8 +2,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-import Contato from './Pages/contato';
-import Projetos from './Pages/projetos';
+import Contato from './pages/contato';
+import Projetos from './pages/projetos';
 
 function App() {
   return (
