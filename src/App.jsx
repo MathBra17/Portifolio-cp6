@@ -1,9 +1,9 @@
 // Routes.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Contato from './Pages/Contato';
-import Projetos from './Pages/Projetos';
+import Home from './pages/home';
+import Contato from './Pages/contato';
+import Projetos from './Pages/projetos';
 
 function App() {
   return (
